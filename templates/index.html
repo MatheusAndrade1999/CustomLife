@@ -1,19 +1,21 @@
 {% extends "base.html" %}
 {% block main %}
 
-<body class="home_body">
-    <div class="card_home1">
-        <a name="img1" href="">Intruder</a>
+<div class="home_body">
+    <div class="cards">
+        <div class="card">
+          <a href="../templates/suzuki.html"><img src="../static/img/intruder.jpg" alt="Intruder125"></a>
+        </div>
+        <div class="card">
+          <a href="../templates/virago.html"><img src="../static/img/vstar.PNG" alt="Virago250"></a>
+        </div>
+        <div class="card">
+          <a href="../templates/honda.html"><img src="../static/img/shadow.600.PNG" alt="Shadow600"></a>
+        </div>
+        <div class="card">
+          <a href="../templates/dragstar.html"><img src="../static/img/dragstar.PNG" alt="Dragstar650"></a>
+        </div>
     </div>
-    <div class="card_home2">
-        <a name="img2" href="">Virago</a>
-    </div>
-    <div class="card_home3">
-        <a name="img3" href="">Shadow</a>
-    </div>
-    <div class="card_home4">
-        <a name="img4" href="">Dragstar</a>
-    </div>
-</body>
+</div>
 
 {% endblock %}

@@ -1,19 +1,16 @@
 {% extends 'base.html' %}
 {% block main %}
+
+<div class="container">
+    <img class="imagem_pagina" src="../static/img/intruder.jpg" alt="Imagem" width="40%">
     <div class="texto_pagina">
-        <div>
-            <h1>
-                Suzuki Intruder 125cc
-            </h1>
-        </div>
-        <div>
-            <p>
-                A historia Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Voluptate suscipit non odit et vitae aspernatur, illo quia voluptatibus 
-                expedita assumenda molestiae explicabo amet dolores ab similique quidem 
-                quos unde. Ipsum!
-            </p>
-        </div>
+        <p>Este é um texto que percorre a página e quebra quando a imagem acaba, respeitando o máximo de 80% 
+        de largura da página.
+        Este texto pode ser muito longo, mas não vai ultrapassar o limite de 80% da largura da página.
+        Isso é possível graças à propriedade `max-width` do elemento `div` que contém o texto. Lorem ipsum 
+        dolor sit amet consectetur adipisicing elit. Impedit voluptate fugit, porro esse cum facilis itaque
+        eius quis, exercitationem eveniet nobis tempore corporis? Iusto eaque at a sunt. Nihil, nobis.</p>
     </div>
+</div>
 
 {% endblock %}

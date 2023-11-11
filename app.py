@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, url_for, jsonify
 # from flask_mysqldb import MySQL
 
-
 #Banco de dados
 # app.config['MYSQL_Host'] = 'localhost' #127.0.0.1
 # app.config['MYSQL_USER'] = 'root'
