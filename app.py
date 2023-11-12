@@ -19,9 +19,17 @@ def home():
 def suzuki():
     return render_template('suzuki.html')
 
-# @app.route('/contato')
-# def contato():
-#     return render_template('contato.html')
+@app.route('/honda')
+def honda():
+    return render_template('honda.html')
+
+@app.route('/yamaha')
+def yamaha():
+    return render_template('yamaha.html')
+
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
 
 # @app.route('/contato', methods=['GET', 'POST'])
 # def contato():
