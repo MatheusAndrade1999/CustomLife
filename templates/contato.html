@@ -1,10 +1,10 @@
 {% extends 'base.html' %}
 {% block main %}
 <div class="form_contato">
-    <form >
-        <input type="email" placeholder="Seu e-mail:"> <br>
-        <input type="text" placeholder="Assunto:"> <br>
-        <input type="text" placeholder="Conteúdo:">  <br>
+    <form method="POST" action="/contato">
+        <input type="email" placeholder="Seu e-mail:" name="email"> <br>
+        <input type="assunto" placeholder="Assunto:" name="assunto"> <br>
+        <input type="descricao" placeholder="Conteúdo:" name="descricao">  <br>
         <input type="submit" value="Enviar">  
     </form>
 </div>
